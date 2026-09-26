@@ -1,154 +1,459 @@
 {
-  "layout": "theme.gempages.header",
   "sections": {
-    "gp_section_637042276823991099": {
-      "type": "gp-section-637042276823991099",
+    "hero": {
+      "type": "image-banner",
       "settings": {
-        "ggOP-Tv3mzB_background_desktop_image_src": "https://cdn.shopify.com/s/files/1/1076/7017/6074/files/ChatGPT_Image_12_sept._2026_20_41_53.png",
-        "ggQbZMvqk8m_text": "L'élégance,&nbsp;<br>en mouvement.",
-        "gghWghnXShr_text": "<p>Le legging 3D qui sculpte votre silhouette et sublime chaque courbe.</p>",
-        "ggTIpR2NaWZ_label": "<p>Découvrir le legging</p>",
-        "checksum": "764e3f377fd5a95c6ecfb443f3377a5ec32e607b439465c9213b96a6fd691e02_1_1_1_0__1",
-        "section_preload": "true"
-      }
+        "image": "shopify://shop_images/ChatGPT_Image_12_sept._2026_20_41_53.png",
+        "image_overlay_opacity": 25,
+        "image_height": "large",
+        "image_behavior": "ambient",
+        "desktop_content_position": "bottom-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "left",
+        "show_text_below": false
+      },
+      "blocks": {
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "text": "Legging 3D sculptant",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "L’élégance, en mouvement.",
+            "heading_size": "hxl"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "settings": {
+            "text": "Le legging qui sculpte votre silhouette et lisse visuellement l’aspect peau d’orange.",
+            "text_style": "body"
+          }
+        },
+        "buttons-3": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Découvrir le legging",
+            "button_link_1": "shopify://products/legging-sculptant-et-lissant",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "text-0",
+        "heading-1",
+        "text-2",
+        "buttons-3"
+      ]
     },
-    "gp_section_637201900676055867": {
-      "type": "gp-section-637201900676055867",
+    "reassurance": {
+      "type": "multicolumn",
       "settings": {
-        "ggSvWhy03_text": "<p>Pourquoi choisir SVELIA&nbsp;?</p>",
-        "ggSvWhy04_text": "<p>Des détails pensés pour conjuguer maintien, confort et élégance.</p>",
-        "ggSvWhy07_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/1076/7017/6074/files/svelia-vrai-legging-details-prune.webp",
-        "ggSvWhy07_alt": "Détails du legging SVELIA prune : lignes 3D, ceinture haute, finitions et matière",
-        "ggSvWhy08_text": "<p>Le vrai legging, dans les détails</p>",
-        "ggSvWhy09_text": "<p>Lignes 3D structurées, ceinture haute, finitions soignées et matière douce.</p>",
-        "checksum": "",
-        "section_preload": "true"
-      }
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      },
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "title": "Livraison suivie offerte",
+            "text": "<p>Préparée sous 24 à 48 h ouvrées</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "title": "30 jours pour l’adopter",
+            "text": "<p>Retour offert, échange ou remboursement</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Paiement sécurisé",
+            "text": "<p>Carte bancaire, Apple Pay, Google Pay</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Du S au XXL",
+            "text": "<p>13 coloris pour toutes les silhouettes</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column-2",
+        "column-3"
+      ]
     },
-    "gp_section_637042278770148113": {
-      "type": "gp-section-637042278770148113",
+    "texture": {
+      "type": "image-with-text",
       "settings": {
-        "ggPr027_text": "<p>Votre nouvelle seconde peau.</p>",
-        "gg3bpnhQErJ_childItem_0": "<p>Guide des tailles</p>",
-        "ggPr036_label": "Ajouter au panier",
-        "ggPr036_outOfStockLabel": "Rupture de stock",
-        "ggPr036_unavailableLabel": "Indisponible",
-        "ggPr036_variantSelectionRequiredMessage": "Veuillez sélectionner une couleur et une taille",
-        "ggPr036_successMessage": "Produit ajouté au panier",
-        "ggPr036_errorMessage": "Impossible d’ajouter le produit au panier",
-        "checksum": "fbb792b82d699ac22c288f596f25431bbd3d2aa1dcd14b90b19fa031bdc85328_1_1_1_0__1",
-        "section_preload": "true"
-      }
+        "image": "shopify://shop_images/ChatGPT_Image_12_sept._2026_20_52_55.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 52,
+        "padding_bottom": 52
+      },
+      "blocks": {
+        "caption-0": {
+          "type": "caption",
+          "settings": {
+            "caption": "La texture 3D",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
+        "heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sculptée dès que vous l’enfilez",
+            "heading_size": "h1"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sa maille texturée en relief épouse vos formes, gaine en douceur et floute visuellement l’aspect peau d’orange. Vous vous sentez tenue, jamais serrée.</p>",
+            "text_style": "body"
+          }
+        },
+        "button-3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Choisir ma couleur",
+            "button_link": "shopify://products/legging-sculptant-et-lissant",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption-0",
+        "heading-1",
+        "text-2",
+        "button-3"
+      ]
     },
-    "gp_section_637042279927775958": {
-      "type": "gp-section-637042279927775958",
+    "product": {
+      "type": "featured-product",
       "settings": {
-        "ggBe040_text": "<p>Texture 3D</p>",
-        "ggBe041_text": "<p>Une matière texturée et douce qui sublime visuellement la silhouette et aide à réduire l’apparence de la cellulite.</p>",
-        "ggBe044_text": "<p>Taille haute</p>",
-        "ggBe045_text": "<p>Un maintien confortable et une coupe sculptante qui épouse naturellement les formes.</p>",
-        "ggBe048_text": "<p>Liberté de mouvement</p>",
-        "ggBe049_text": "<p>90 % nylon et 10 % élasthanne pour une matière extensible, adaptée au sport et au quotidien.</p>",
-        "checksum": "7dd0aa88dbd7c1ac711802983f273478854c703005258079e55e34210af6c67c_1_1_1_0__1"
-      }
+        "product": "legging-sculptant-et-lissant",
+        "color_scheme": "scheme-2",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      },
+      "blocks": {
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "text": "Votre nouvelle seconde peau",
+            "text_style": "uppercase"
+          }
+        },
+        "title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price-2": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "buy_buttons-4": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "icon-with-text-5": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "truck",
+            "heading_1": "Livraison offerte",
+            "icon_2": "return",
+            "heading_2": "Retour 30 jours",
+            "icon_3": "lock",
+            "heading_3": "Paiement sécurisé"
+          }
+        }
+      },
+      "block_order": [
+        "text-0",
+        "title-1",
+        "price-2",
+        "variant_picker-3",
+        "buy_buttons-4",
+        "icon-with-text-5"
+      ]
     },
-    "gp_section_637042282293363473": {
-      "type": "gp-section-637042282293363473",
+    "lifestyle": {
+      "type": "multicolumn",
       "settings": {
-        "ggDe052_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/1076/7017/6074/files/ChatGPT_Image_12_sept._2026_20_52_55.png",
-        "ggDe052_srcSet_tablet_src": "https://cdn.shopify.com/s/files/1/1076/7017/6074/files/ChatGPT_Image_13_sept._2026_01_36_44.png",
-        "ggDe052_alt": "Photo macro de la texture 3D du legging SVELIA",
-        "ggDe055_text": "<p>Le sens du détail.</p>",
-        "ggDe056_text": "<p>Une texture 3D conçue pour associer esthétique, maintien et confort. Sa taille haute épouse la silhouette, tandis que sa maille sculptante aide à lisser visuellement la peau et à réduire l’apparence de la cellulite.</p><p>&nbsp;</p><p><strong>Texture sculptante • Taille haute • Effet galbant • Matière extensible</strong></p><p>&nbsp;</p><p>Du studio à la ville, SVELIA accompagne chaque mouvement avec élégance.</p>",
-        "ggDe054_text": "<p>PLUS QU’UN LEGGING</p><p>UNE ATTENTION PORTÉE À CHAQUE DÉTAIL</p>",
-        "checksum": "4db44a8187cf805952d92319e6574fd666bd962be8ddf171a49c6b51fd6e5c1b_1_1_1_0__1"
-      }
+        "title": "Une allure, mille façons de la vivre",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "button_label": "Découvrir le legging",
+        "button_link": "shopify://products/legging-sculptant-et-lissant",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      },
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_13_sept._2026_00_45_45.png",
+            "title": "Au studio",
+            "text": "<p>Maintenue et libre dans chaque mouvement, du pilates au yoga.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_13_sept._2026_00_45_35.png",
+            "title": "En ville",
+            "text": "<p>Avec un blazer ou un pull oversize, une élégance naturelle du matin au soir.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1"
+      ]
     },
-    "gp_section_637042283434214016": {
-      "type": "gp-section-637042283434214016",
+    "details": {
+      "type": "image-with-text",
       "settings": {
-        "ggLi059_text": "<p>Une allure. Mille façons de la vivre.</p>",
-        "ggLi060_text": "<p>Du studio à la ville, le legging SVELIA vous accompagne partout.</p>",
-        "ggLi063_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/1076/7017/6074/files/ChatGPT_Image_13_sept._2026_00_45_45.png",
-        "ggLi063_alt": "SVELIA porté au studio",
-        "ggLi064_text": "<p>Au studio</p>",
-        "ggLi065_text": "<p>Pour vous sentir maintenue et libre dans chaque mouvement.</p>",
-        "ggLi067_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/1076/7017/6074/files/ChatGPT_Image_13_sept._2026_00_45_35.png",
-        "ggLi067_alt": "SVELIA porté en ville",
-        "ggLi068_text": "<p>En ville</p>",
-        "ggLi069_text": "<p>Une élégance naturelle, du matin au soir.</p>",
-        "checksum": "2e9c2e6fdace84717aa17d5d3af603d3a896038400f007bc36e2509269e1ba0a_1_1_1_0__1"
-      }
+        "image": "shopify://shop_images/svelia-vrai-legging-details-prune.webp",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 0
+      },
+      "blocks": {
+        "caption-0": {
+          "type": "caption",
+          "settings": {
+            "caption": "Le sens du détail",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
+        "heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pensé pour sublimer chaque courbe",
+            "heading_size": "h1"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Taille haute gainante</strong> qui maintient le ventre</li><li><strong>Coupe galbante</strong> qui souligne la silhouette</li><li><strong>90 % nylon, 10 % élasthanne</strong> pour une liberté totale</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button-3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Je choisis mon legging",
+            "button_link": "shopify://products/legging-sculptant-et-lissant",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "caption-0",
+        "heading-1",
+        "text-2",
+        "button-3"
+      ]
     },
-    "gp_section_637042286940652305": {
-      "type": "gp-section-637042286940652305",
+    "faq": {
+      "type": "collapsible-content",
       "settings": {
-        "ggFa079_text": "BESOIN D’AIDE ?",
-        "ggFa080_text": "<p>Vos questions. Nos réponses.</p>",
-        "ggFa081_childItem_0": "<p>Puis-je le porter pour le sport et au quotidien ?</p>",
-        "ggFa081_childItem_1": "<p>Comment entretenir mon legging ?</p>",
-        "ggFa081_childItem_2": "<p>Quels sont les délais de livraison ?</p>",
-        "ggFa081_childItem_3": "<p>Puis-je retourner mon legging ?</p>",
-        "ggFa084_text": "<p>Oui. Sa matière extensible composée de 90 % de nylon et 10 % d’élasthanne accompagne vos mouvements pendant vos séances de sport comme dans votre quotidien.</p>",
-        "ggFa087_text": "<p>Lavez le legging à froid ou à 30 °C avec des couleurs similaires. Évitez le sèche-linge pour préserver l’élasticité et la texture 3D.</p>",
-        "ggFa090_text": "<p>Les commandes sont préparées sous 24 à 48 heures. La livraison est offerte et vous disposez de 30 jours pour effectuer un retour.</p>",
-        "ggEPSRFzxlo_text": "<p>Vous disposez de 30 jours après réception pour demander un retour. L’article doit être non porté, non utilisé, muni de ses étiquettes et conservé dans son emballage d’origine. Contactez-nous à <a href=\"mailto:contact@svelia.store\"><strong>contact@svelia.store</strong></a> avant tout envoi.</p>",
-        "checksum": "0635ebd958715d6113b53b228dea58db82325372cc09b11eccd458b4926ea62a_1_1_1_0__1"
-      }
+        "caption": "",
+        "heading": "Vos questions, nos réponses",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 52,
+        "padding_bottom": 52
+      },
+      "blocks": {
+        "collapsible_row-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le legging réduit-il vraiment la cellulite ?",
+            "icon": "silhouette",
+            "row_content": "<p>Soyons honnêtes : aucun vêtement ne fait disparaître la cellulite. En revanche, la texture 3D crée un relief qui camoufle l’aspect peau d’orange, et la maille gainante lisse la silhouette dès que vous l’enfilez.</p>"
+          }
+        },
+        "collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quelle taille choisir ?",
+            "icon": "ruler",
+            "row_content": "<p>La maille est très extensible. Un doute entre deux tailles ? Écrivez-nous à contact@svelia.store avec votre tour de taille et de hanches, nous vous conseillons. L’échange reste possible sous 30 jours.</p>"
+          }
+        },
+        "collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment l’entretenir ?",
+            "icon": "washing",
+            "row_content": "<p>Lavage à froid ou à 30 °C avec des couleurs similaires. Évitez le sèche-linge pour préserver l’élasticité et la texture 3D.</p>"
+          }
+        },
+        "collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels sont les délais de livraison ?",
+            "icon": "truck",
+            "row_content": "<p>Votre commande est préparée sous 24 à 48 h ouvrées. La livraison suivie est offerte et la date estimée s’affiche avant le paiement.</p>"
+          }
+        },
+        "collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Et s’il ne me va pas ?",
+            "icon": "return",
+            "row_content": "<p>Vous avez 30 jours après réception pour nous le retourner, avec une étiquette de retour offerte. L’article doit être non porté, avec ses étiquettes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row-0",
+        "collapsible_row-1",
+        "collapsible_row-2",
+        "collapsible_row-3",
+        "collapsible_row-4"
+      ]
     },
-    "gp_section_637351312287072896": {
-      "type": "gp-section-637351312287072896",
+    "newsletter": {
+      "type": "newsletter",
       "settings": {
-        "ggMC6MRKXrd_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/1076/7017/6074/files/ChatGPT_Image_13_sept._2026_15_10_31_2_e6e02ff1-7781-4d84-a4da-749d662ff3d5.png",
-        "ggMC6MRKXrd_alt": "Logo SVELIA",
-        "ggvBcgKcB81_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/image_38_60a755ea-7e8d-45d5-b1a7-78498762f846.webp",
-        "ggvBcgKcB81_alt": "Alt Image",
-        "ggvBcgKcB81_title": "Image Title",
-        "ggTiJZ_kXCZ_text": "<p><a href=\"https://svelia.store/policies/legal-notice\">Mentions légales</a></p>",
-        "ggbEUkttaPc_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/image_38_60a755ea-7e8d-45d5-b1a7-78498762f846.webp",
-        "ggbEUkttaPc_alt": "Alt Image",
-        "ggbEUkttaPc_title": "Image Title",
-        "gg7htKFzVIc_text": "<p><a href=\"https://svelia.store/policies/refund-policy\">Remboursement</a></p>",
-        "gg7JYvrePHG_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/image_38_60a755ea-7e8d-45d5-b1a7-78498762f846.webp",
-        "gg7JYvrePHG_alt": "Alt Image",
-        "gg7JYvrePHG_title": "Image Title",
-        "gguWKBYCApN_text": "<p><a href=\"https://svelia.store/pages/contact\">Contact</a></p>",
-        "ggiumEBHcqL_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/image_38_60a755ea-7e8d-45d5-b1a7-78498762f846.webp",
-        "ggiumEBHcqL_alt": "Alt Image",
-        "ggiumEBHcqL_title": "Image Title",
-        "ggLhNTjAbKu_text": "<p><a href=\"https://svelia.store/policies/terms-of-sale\">CGV</a></p>",
-        "ggQyL5GSbEF_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/image_38_60a755ea-7e8d-45d5-b1a7-78498762f846.webp",
-        "ggQyL5GSbEF_alt": "Alt Image",
-        "ggQyL5GSbEF_title": "Image Title",
-        "gg7KQrNcMAp_text": "<p><a href=\"https://svelia.store/policies/privacy-policy\">Politique de confidentialité</a></p>",
-        "ggZemY3RCbu_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/image_38_60a755ea-7e8d-45d5-b1a7-78498762f846.webp",
-        "ggZemY3RCbu_alt": "Alt Image",
-        "ggZemY3RCbu_title": "Image Title",
-        "ggwXdqzz-qy_text": "<p><a href=\"https://svelia.store/policies/shipping-policy\">Livraisons</a></p>",
-        "gg7D1DIYJcj_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/image_34_6b86909d-84ae-4703-a30c-44a03f26ae41.webp",
-        "gg7D1DIYJcj_alt": "Alt Image",
-        "gg7D1DIYJcj_title": "Image Title",
-        "ggzKxgkYzdT_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/image_35_4a0dffe0-7d04-4e0d-870f-ea66e9ab9756.webp",
-        "ggzKxgkYzdT_alt": "Alt Image",
-        "ggzKxgkYzdT_title": "Image Title",
-        "ggZp2wGOrMC_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/image_36_6a070603-9f4a-46c3-ba74-20f174a128c7.webp",
-        "ggZp2wGOrMC_alt": "Alt Image",
-        "ggZp2wGOrMC_title": "Image Title",
-        "ggLJ5J1TNFs_text": "© 2026 SVELIA. Tous droits réservés.",
-        "ggQ5Q5WtwYD_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/image_33_51286048-4f58-4829-8c67-274fa5ec4639.webp",
-        "ggQ5Q5WtwYD_alt": "Alt Image",
-        "ggQ5Q5WtwYD_title": "Image Title"
-      }
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      },
+      "blocks": {
+        "heading-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rejoignez le cercle SVELIA",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Nouveautés, conseils style et accès en avant-première aux nouveaux coloris.</p>"
+          }
+        },
+        "email_form-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading-0",
+        "paragraph-1",
+        "email_form-2"
+      ]
     }
   },
   "order": [
-    "gp_section_637042276823991099",
-    "gp_section_637201900676055867",
-    "gp_section_637042278770148113",
-    "gp_section_637042279927775958",
-    "gp_section_637042282293363473",
-    "gp_section_637042283434214016",
-    "gp_section_637042286940652305",
-    "gp_section_637351312287072896"
+    "hero",
+    "reassurance",
+    "texture",
+    "product",
+    "lifestyle",
+    "details",
+    "faq",
+    "newsletter"
   ]
 }
