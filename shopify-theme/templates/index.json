@@ -4,7 +4,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify://shop_images/ChatGPT_Image_12_sept._2026_20_41_53.png",
-        "image_overlay_opacity": 25,
+        "image_overlay_opacity": 30,
         "image_height": "large",
         "image_behavior": "ambient",
         "desktop_content_position": "bottom-left",
@@ -16,13 +16,6 @@
         "show_text_below": false
       },
       "blocks": {
-        "text-0": {
-          "type": "text",
-          "settings": {
-            "text": "Legging 3D sculptant",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
         "heading-1": {
           "type": "heading",
           "settings": {
@@ -43,14 +36,11 @@
             "button_label_1": "Découvrir le legging",
             "button_link_1": "shopify://products/legging-sculptant-et-lissant",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
             "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
-        "text-0",
         "heading-1",
         "text-2",
         "buttons-3"
@@ -59,12 +49,9 @@
     "reassurance": {
       "type": "multicolumn",
       "settings": {
-        "title": "",
         "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
@@ -79,36 +66,28 @@
           "type": "column",
           "settings": {
             "title": "Livraison suivie offerte",
-            "text": "<p>Préparée sous 24 à 48 h ouvrées</p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Préparée sous 24 à 48 h ouvrées</p>"
           }
         },
         "column-1": {
           "type": "column",
           "settings": {
             "title": "30 jours pour l’adopter",
-            "text": "<p>Retour offert, échange ou remboursement</p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Retour offert, échange ou remboursement</p>"
           }
         },
         "column-2": {
           "type": "column",
           "settings": {
             "title": "Paiement sécurisé",
-            "text": "<p>Carte bancaire, Apple Pay, Google Pay</p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Carte bancaire, Apple Pay, Google Pay</p>"
           }
         },
         "column-3": {
           "type": "column",
           "settings": {
             "title": "Du S au XXL",
-            "text": "<p>13 coloris pour toutes les silhouettes</p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>13 coloris pour toutes les silhouettes</p>"
           }
         }
       },
@@ -269,9 +248,7 @@
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_13_sept._2026_00_45_45.png",
             "title": "Au studio",
-            "text": "<p>Maintenue et libre dans chaque mouvement, du pilates au yoga.</p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Maintenue et libre dans chaque mouvement, du pilates au yoga.</p>"
           }
         },
         "column-1": {
@@ -279,9 +256,7 @@
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_13_sept._2026_00_45_35.png",
             "title": "En ville",
-            "text": "<p>Avec un blazer ou un pull oversize, une élégance naturelle du matin au soir.</p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Avec un blazer ou un pull oversize, une élégance naturelle du matin au soir.</p>"
           }
         }
       },
@@ -349,7 +324,6 @@
     "faq": {
       "type": "collapsible-content",
       "settings": {
-        "caption": "",
         "heading": "Vos questions, nos réponses",
         "heading_size": "h1",
         "heading_alignment": "center",
