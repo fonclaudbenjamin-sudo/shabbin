@@ -19,7 +19,7 @@
         "heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "L’élégance, en mouvement.",
+            "heading": "L’élégance, <em>en mouvement.</em>",
             "heading_size": "hxl"
           }
         },
@@ -113,7 +113,7 @@
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "padding_top": 52,
-        "padding_bottom": 52
+        "padding_bottom": 64
       },
       "blocks": {
         "caption-0": {
@@ -127,7 +127,7 @@
         "heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Sculptée dès que vous l’enfilez",
+            "heading": "Sculptée dès que vous <em>l’enfilez</em>",
             "heading_size": "h1"
           }
         },
@@ -168,14 +168,14 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 52,
-        "padding_bottom": 52
+        "padding_bottom": 64
       },
       "blocks": {
         "text-0": {
           "type": "text",
           "settings": {
             "text": "Votre nouvelle seconde peau",
-            "text_style": "uppercase"
+            "text_style": "subtitle"
           }
         },
         "title-1": {
@@ -240,7 +240,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 52,
-        "padding_bottom": 52
+        "padding_bottom": 64
       },
       "blocks": {
         "column-0": {
@@ -277,10 +277,10 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-3",
-        "color_scheme": "scheme-3",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "padding_top": 52,
+        "padding_bottom": 64
       },
       "blocks": {
         "caption-0": {
@@ -294,7 +294,7 @@
         "heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Pensé pour sublimer chaque courbe",
+            "heading": "Pensé pour sublimer <em>chaque courbe</em>",
             "heading_size": "h1"
           }
         },
@@ -310,7 +310,7 @@
           "settings": {
             "button_label": "Je choisis mon legging",
             "button_link": "shopify://products/legging-sculptant-et-lissant",
-            "button_style_secondary": true
+            "button_style_secondary": false
           }
         }
       },
@@ -334,7 +334,7 @@
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 52,
-        "padding_bottom": 52
+        "padding_bottom": 64
       },
       "blocks": {
         "collapsible_row-0": {
@@ -389,10 +389,10 @@
     "newsletter": {
       "type": "newsletter",
       "settings": {
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
         "full_width": true,
         "padding_top": 52,
-        "padding_bottom": 52
+        "padding_bottom": 64
       },
       "blocks": {
         "heading-0": {

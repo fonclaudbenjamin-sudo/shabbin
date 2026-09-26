@@ -1,0 +1,83 @@
+/* SVELIA premium finish layer — loaded after base.css. */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Typography: tighter, heavier display type; balanced wraps. */
+h1, h2, h3, .h0, .h1, .h2, .hxl, .hxxl {
+  letter-spacing: -0.015em;
+  line-height: 1.05;
+  text-wrap: balance;
+}
+
+.hxl, .hxxl, .h0 {
+  letter-spacing: -0.025em;
+  line-height: 0.98;
+}
+
+h1 em, h2 em, .banner__heading em, .image-with-text__heading em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+p, .rte {
+  text-wrap: pretty;
+}
+
+.banner__text, .image-with-text__text, .rich-text__text, .newsletter__subheading {
+  max-width: 62ch;
+}
+
+.caption-with-letter-spacing {
+  letter-spacing: 0.22em;
+}
+
+/* Buttons: tactile hover and press feedback with a plum-tinted shadow. */
+.button, .shopify-payment-button__button--unbranded, .product-form__submit {
+  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.button:not([disabled]):hover, .shopify-payment-button__button--unbranded:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px -16px rgba(85, 38, 62, 0.55);
+}
+
+.button:not([disabled]):active, .shopify-payment-button__button--unbranded:active {
+  transform: translateY(1px) scale(0.98);
+  box-shadow: none;
+}
+
+/* Imagery: slow, subtle zoom on hover. */
+.image-with-text__media img, .multicolumn-card__image-wrapper img {
+  transition: transform 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@media (hover: hover) {
+  .image-with-text__media:hover img, .multicolumn-card:hover .multicolumn-card__image-wrapper img {
+    transform: scale(1.035);
+  }
+}
+
+/* Soft film grain to break digital flatness. */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.045;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Announcement bar: quieter, more couture. */
+.announcement-bar__message {
+  letter-spacing: 0.12em;
+  font-size: 1.2rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .button, .image-with-text__media img, .multicolumn-card__image-wrapper img { transition: none; }
+}
