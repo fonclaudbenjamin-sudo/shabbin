@@ -1,0 +1,66 @@
+.hero {
+  min-height: 100svh;
+  display: flex;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  min-height: 100svh;
+  margin: 0 auto;
+  padding: 0 24px;
+  color: #1c1917;
+}
+
+.hero__eyebrow {
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  margin: 0;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(48px, 9vw, 104px);
+  font-weight: 500;
+  line-height: 0.95;
+}
+
+.hero__text {
+  margin: 0;
+  max-width: 440px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.hero__cta {
+  align-self: flex-start;
+  padding: 16px 36px;
+  border-radius: 999px;
+  background: #121212;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+}
+
+/* Soft light veil behind the copy so text stays readable on any part of the gradient. */
+.hero__content {
+  position: relative;
+}
+.hero__content::before {
+  content: '';
+  position: absolute;
+  inset: 0 -50vw 0 -50vw;
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(247, 243, 238, 0.75) 0%, rgba(247, 243, 238, 0.35) 45%, transparent 70%);
+}
+@media (max-width: 640px) {
+  .hero__content::before {
+    background: rgba(247, 243, 238, 0.3);
+  }
+}

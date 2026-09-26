@@ -1,0 +1,6 @@
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', system-ui, sans-serif;
+  background: #ede9fe;
+}
