@@ -27,8 +27,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {},
-          "disabled": true
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -129,10 +128,10 @@
             "image_size": 30,
             "image_position": "left",
             "icon_color": "#b78d9f",
-            "title_text": "<p><strong>30 jours pour l’adopter</strong></p>",
+            "title_text": "<p><strong>2 leggings : -15 % · 3 leggings : -25 %</strong></p>",
             "title_size": 15,
             "title_color": "#121212",
-            "body_text": "<p>Taille ou couleur pas parfaite ? Retour offert sous 30 jours : échange ou remboursement.</p>",
+            "body_text": "<p>Remise appliquée automatiquement au panier. Retour offert sous 30 jours.</p>",
             "body_size": 12,
             "body_color": "#554b4f",
             "border": "solid",

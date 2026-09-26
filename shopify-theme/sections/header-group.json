@@ -25,9 +25,17 @@
             "text": "Paiement 100 % sécurisé",
             "link": "shopify://products/legging-sculptant-et-lissant"
           }
+        },
+        "announcement-offer": {
+          "type": "announcement",
+          "settings": {
+            "text": "2 leggings -15 % · 3 leggings -25 %",
+            "link": "shopify://products/legging-sculptant-et-lissant"
+          }
         }
       },
       "block_order": [
+        "announcement-offer",
         "announcement-0",
         "announcement-1",
         "announcement-2"
